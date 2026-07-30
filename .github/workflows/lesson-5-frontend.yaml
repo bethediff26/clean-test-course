@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: ZAP Baseline Scan
-        uses: zaproxy/action-baseline@v0.8.2
+        uses: zaproxy/action-baseline@v0.9.0
         with:
           target: 'https://hangryhippo.quantic.host/'
           artifact_name: 'zapscan'
