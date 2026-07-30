@@ -36,5 +36,5 @@ jobs:
         uses: zaproxy/action-baseline@v0.9.0
         with:
           target: 'https://hangryhippo.quantic.host/'
-          artifact_name: 'zap-scan'
+          artifact_name: 'zapscan'
 
