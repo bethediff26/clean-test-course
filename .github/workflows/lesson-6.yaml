@@ -3,7 +3,7 @@ name: Lesson 6
 on:
   push:
     branches:
-      - lesson-6-complete
+      - lesson-6
 jobs:
   function_test:
     runs-on: ubuntu-latest
@@ -51,4 +51,3 @@ jobs:
         with:
           name: cypress-videos
           path: frontend/cypress/videos
-          
